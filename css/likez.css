@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+
+/* Definindo as cores dos botões */
+:root {
+    --lz-color: #c72d2d;
+    --lz-blue: #0958B0;
+    --lz-green: #149E14;
+    --lz-orange: #E67E22;
+    --lz-purple: #8E44AD;
+    --lz-red: #E74C3C;
+    --lz-yellow: #F39C12;
+    --lz-pink: #FF6B6B;
+    --lz-teal: #2BCBAA;
+}
+
 /* Reset de estilos básicos */
 body{
     margin: 0;
@@ -78,9 +92,9 @@ body{
 
 /* Estilos do botão */
 .lz-button {
-    background-color: #0958B0 !important;
+    background-color: var(--lz-color)  !important;
     color: #fff !important;
-    border-color: #0958B0 !important ;
+    border-color: var(--lz-color)  !important ;
     border-radius: 20px; 
     padding: 1.3ch;
     font-size: 20px; 
@@ -89,10 +103,138 @@ body{
 }
 
 .lz-button:hover {
-    background-color: #051a2f;
+    background-color: #7b0e1f;
     border-radius: 20px; 
 }
 
+/* Botão Azul */
+.lz-button-blue {
+    background-color: var(--lz-blue) !important;
+    color: #fff !important;
+    border-color: var(--lz-blue) !important;
+    border-radius: 20px;
+    padding: 1.3ch;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lz-button-blue:hover {
+    background-color: #073E7D !important; /* Cor mais escura no hover */
+}
+
+/* Botão Verde */
+.lz-button-green {
+    background-color: var(--lz-green) !important;
+    color: #fff !important;
+    border-color: var(--lz-green) !important;
+    border-radius: 20px;
+    padding: 1.3ch;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lz-button-green:hover {
+    background-color: #0F7F0F !important; /* Cor mais escura no hover */
+}
+
+/* Botão Laranja */
+.lz-button-orange {
+    background-color: var(--lz-orange) !important;
+    color: #fff !important;
+    border-color: var(--lz-orange) !important;
+    border-radius: 20px;
+    padding: 1.3ch;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lz-button-orange:hover {
+    background-color: #C2570D !important; /* Cor mais escura no hover */
+}
+/* Botão Roxo */
+.lz-button-purple {
+    background-color: var(--lz-purple) !important;
+    color: #fff !important;
+    border-color: var(--lz-purple) !important;
+    border-radius: 20px;
+    padding: 1.3ch;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lz-button-purple:hover {
+    background-color: #6A18A4 !important; /* Cor mais escura no hover */
+}
+
+/* Botão Vermelho */
+.lz-button-red {
+    background-color: var(--lz-red) !important;
+    color: #fff !important;
+    border-color: var(--lz-red) !important;
+    border-radius: 20px;
+    padding: 1.3ch;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lz-button-red:hover {
+    background-color: #B42016 !important; /* Cor mais escura no hover */
+}
+
+/* Botão Amarelo */
+.lz-button-yellow {
+    background-color: var(--lz-yellow) !important;
+    color: #fff !important;
+    border-color: var(--lz-yellow) !important;
+    border-radius: 20px;
+    padding: 1.3ch;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lz-button-yellow:hover {
+    background-color: #D48A0C !important; /* Cor mais escura no hover */
+}
+
+/* Botão Rosa */
+.lz-button-pink {
+    background-color: var(--lz-pink) !important;
+    color: #fff !important;
+    border-color: var(--lz-pink) !important;
+    border-radius: 20px;
+    padding: 1.3ch;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lz-button-pink:hover {
+    background-color: #FF4040 !important; /* Cor mais escura no hover */
+}
+
+/* Botão Verde-água */
+.lz-button-teal {
+    background-color: var(--lz-teal) !important;
+    color: #fff !important;
+    border-color: var(--lz-teal) !important;
+    border-radius: 20px;
+    padding: 1.3ch;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lz-button-teal:hover {
+    background-color: #179D8E !important; /* Cor mais escura no hover */
+}
+
+/* Classe de Aumento */
 .lz-lx{
     width: 100% !important;; 
 }
