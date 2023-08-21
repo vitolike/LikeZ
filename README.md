@@ -56,3 +56,7 @@ O LikeZ é distribuído sob a Licença XYZ. Para mais informações, leia o arqu
 **Nota:** Lembre-se de substituir os trechos como "link-para-documentacao" e "link-para-licenca" pelos links reais para sua documentação e licença.
 
 Este é apenas um exemplo básico de como você pode estruturar o README.md para o seu framework CSS "LikeZ". Sinta-se à vontade para personalizar e adicionar mais detalhes de acordo com as características específicas do seu framework.
+
+
+
+**** INDEVLOPMENT
